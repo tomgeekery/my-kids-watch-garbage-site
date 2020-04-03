@@ -10,21 +10,25 @@
     body {
       background-color: #282A36;
       align-items: center;
-      display: flex;
-      flex-direction: column;
+      display: grid;
       height: 100vh;
-      justify-content: center;
       margin: 0;
       padding: 0;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
     }
     video {
+      height: 100%;
       object-fit: cover;
-      width: 50%;
+      width: 100%;
     }
   </style>
 
 </head>
 <body>
-  <video src="sloth.mp4" autoplay></video>
+  <video src="hopper.mp4" autoplay loop></video>
+  <video src="girl.mp4" autoplay loop></video>
+  <video src="db-no.mp4" autoplay loop></video>
+  <video src="boy.mp4" autoplay loop></video>
 </body>
 </html>
